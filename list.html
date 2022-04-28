@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.min.css">
+    <title>Liste des étudiants</title>
+
+</head>
+<body>
+    
+<div class="container" style="padding-top: 50px; padding-left: 90px; padding-right: 90px; width:100%">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="panel">
+                    <div class="panel-heading">LISTE DES ÉTUDIANTS</div>
+                    <div class="panel-body table-responsive">
+                        <table id="list" class="table table-bordered">
+
+                            <thead>
+                                <tr>
+                                <th scope="col">Matricule</th>
+                                <th scope="col">Nom</th>
+                                <th scope="col">Prénom</th>
+                                <th scope="col">Filière</th>
+                                <th scope="col">Année</th>
+                                <th scope="col">À jour</th>
+                                </tr>
+                            </thead>
+
+                            <tbody id="tb">
+
+
+                            </tbody>
+
+
+                        </table>
+                    </div>
+                </div>
+                
+            </div>    
+        </div>
+
+    </div>
+
+    <script src="jquery/jquery-2.2.4.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
+</body>
+</html>
